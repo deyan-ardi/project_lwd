@@ -1,0 +1,2733 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700&display=swap");
+/* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_extend.scss */
+
+.flex-center-start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+}
+
+/* Normal desktop :1200px. */
+
+/* Normal desktop :992px. */
+
+/* Tablet desktop :768px. */
+
+/* small mobile :320px. */
+
+/* Large Mobile :480px. */
+
+/* 1. Theme default css */
+
+/* line 5, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+/* line 12, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.img {
+  max-width: 100%;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 16, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+a, .button {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 20, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+a:focus, .button:focus, button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 25, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+a:focus {
+  text-decoration: none;
+}
+
+/* line 28, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+a:focus, a:hover, .portfolio-cat a:hover, .footer -menu li a:hover {
+  text-decoration: none;
+}
+
+/* line 34, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+a, button {
+  color: #1F1F1F;
+  outline: medium none;
+}
+
+/* line 39, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+h1, h2, h3, h4, h5 {
+  font-family: "Poppins", sans-serif;
+  color: #1F1F1F;
+}
+
+/* line 43, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+}
+
+/* line 52, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 56, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+li {
+  list-style: none;
+}
+
+/* line 59, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #4D4D4D;
+  margin-bottom: 13px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 68, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+label {
+  color: #7e7e7e;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 74, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+*::-moz-selection {
+  background: #444;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 79, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+::-moz-selection {
+  background: #444;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 84, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+::selection {
+  background: #444;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 89, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+*::-webkit-input-placeholder {
+  color: #cccccc;
+  font-size: 14px;
+  opacity: 1;
+}
+
+/* line 94, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+*:-ms-input-placeholder {
+  color: #cccccc;
+  font-size: 14px;
+  opacity: 1;
+}
+
+/* line 99, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+*::-ms-input-placeholder {
+  color: #cccccc;
+  font-size: 14px;
+  opacity: 1;
+}
+
+/* line 104, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+*::placeholder {
+  color: #cccccc;
+  font-size: 14px;
+  opacity: 1;
+}
+
+/* line 110, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+h3 {
+  font-size: 24px;
+}
+
+/* line 114, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.mb-65 {
+  margin-bottom: 67px;
+}
+
+/* line 118, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.black-bg {
+  background: #020c26 !important;
+}
+
+/* line 122, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.white-bg {
+  background: #ffffff;
+}
+
+/* line 125, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.gray-bg {
+  background: #f5f5f5;
+}
+
+/* line 130, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.bg-img-1 {
+  background-image: url(../img/slider/slider-img-1.jpg);
+}
+
+/* line 133, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.bg-img-2 {
+  background-image: url(../img/background-img/bg-img-2.jpg);
+}
+
+/* line 136, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.cta-bg-1 {
+  background-image: url(../img/background-img/bg-img-3.jpg);
+}
+
+/* line 141, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.overlay {
+  position: relative;
+  z-index: 0;
+}
+
+/* line 145, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.overlay::before {
+  position: absolute;
+  content: "";
+  background-color: #1f1f1f;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: .5;
+}
+
+/* line 157, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.overlay2 {
+  position: relative;
+  z-index: 0;
+}
+
+/* line 161, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.overlay2::before {
+  position: absolute;
+  content: "";
+  background-color: #2C2C2C;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+/* line 173, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.overlay_03 {
+  position: relative;
+  z-index: 0;
+}
+
+/* line 177, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.overlay_03::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #2C2C2C;
+  opacity: .6;
+  content: '';
+  z-index: -1;
+}
+
+.bradcam_bg_1 {
+  background-image: url(../img/banner/bradcam.png);
+}
+
+/* line 4, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_bradcam.scss */
+
+.breadcam_bg_2 {
+  background-image: url(../img/banner/bradcam_2.png);
+}
+
+/* line 7, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_bradcam.scss */
+
+.breadcam_bg_3 {
+  background-image: url(../img/banner/bradcam3.png);
+}
+
+/* line 10, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_bradcam.scss */
+
+.breadcam_bg_4 {
+  background-image: url(../img/banner/bradcam_4.png);
+}
+
+/* line 13, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_bradcam.scss */
+
+.bradcam_area {
+  background-size: cover;
+  background-position: bottom;
+  padding: 214px 0;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+
+@media (max-width: 767px) {
+  /* line 13, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_bradcam.scss */
+  .bradcam_area {
+    padding: 120px 0;
+  }
+}
+
+/* line 35, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_bradcam.scss */
+
+.bradcam_area h3 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+
+@media (max-width: 767px) {
+  /* line 35, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_bradcam.scss */
+  .bradcam_area h3 {
+    font-size: 30px;
+  }
+}
+
+/* line 45, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_bradcam.scss */
+
+.bradcam_area p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+/* line 50, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_bradcam.scss */
+
+.bradcam_area p a {
+  color: #fff;
+}
+
+/* line 52, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_bradcam.scss */
+
+.bradcam_area p a:hover {
+  color: #fff;
+}
+
+/* line 190, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.bradcam_overlay {
+  position: relative;
+  z-index: 0;
+}
+
+/* line 194, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.bradcam_overlay::before {
+  position: absolute;
+  content: "";
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5db2ff+0,7db9e8+100&1+24,0+96 */
+  background: -moz-linear-gradient(left, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db2ff', endColorstr='#007db9e8', GradientType=1);
+  /* IE6-9 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 1;
+}
+
+/* line 210, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/* line 214, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+/* button style */
+
+/* line 220, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.owl-carousel .owl-nav div {
+  background: transparent;
+  height: 50px;
+  left: 0px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 50px;
+  color: #fff;
+  background-color: transparent;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  left: 50px;
+  font-size: 15px;
+  line-height: 50px;
+  border: 1px solid #787878;
+  left: 150px;
+}
+
+/* line 247, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.owl-carousel .owl-nav div.owl-next {
+  left: auto;
+  right: 150px;
+}
+
+/* line 252, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.owl-carousel .owl-nav div.owl-next i {
+  position: relative;
+  right: 0;
+}
+
+/* line 259, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.owl-carousel .owl-nav div.owl-prev i {
+  position: relative;
+  top: 0px;
+}
+
+/* line 269, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.owl-carousel:hover .owl-nav div {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* line 272, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.owl-carousel:hover .owl-nav div:hover {
+  color: #fff;
+  background: #28AE61;
+  border: 1px solid transparent;
+}
+
+/* line 282, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.mb-20px {
+  margin-bottom: 20px;
+}
+
+/* line 286, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.mb-55 {
+  margin-bottom: 55px;
+}
+
+/* line 289, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+/* line 292, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+/* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn {
+  background: #fff;
+  color: #131313;
+  display: inline-block;
+  padding: 18px 44px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0;
+  border: 1px solid #48B6FB;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #48B6FB !important;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* line 17, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn:hover {
+  background: #48B6FB;
+  color: #fff !important;
+  border: 1px solid #48B6FB;
+}
+
+/* line 22, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn:focus {
+  outline: none;
+}
+
+/* line 25, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn.large-width {
+  width: 220px;
+}
+
+/* line 29, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn3 {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
+  background: #37EBED;
+  color: #fff;
+  display: inline-block;
+  padding: 14px 27px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff !important;
+  text-transform: capitalize;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+/* line 48, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn3:hover {
+  background: #4BA8FD;
+  color: #fff !important;
+}
+
+/* line 53, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn3:focus {
+  outline: none;
+}
+
+/* line 56, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn3.large-width {
+  width: 220px;
+}
+
+/* line 60, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn4 {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
+  background: #0181F5;
+  color: #fff;
+  display: inline-block;
+  padding: 14px 27px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff !important;
+  text-transform: capitalize;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+/* line 79, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn4:hover {
+  background: #0181F5;
+  color: #fff !important;
+}
+
+/* line 84, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn4:focus {
+  outline: none;
+}
+
+/* line 87, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn4.large-width {
+  width: 220px;
+}
+
+/* line 92, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn3-white {
+  color: #fff;
+  display: inline-block;
+  padding: 13px 27px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0;
+  border: 1px solid #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff !important;
+  text-transform: capitalize;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+/* line 109, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn3-white:hover {
+  background: #28AE61;
+  color: #fff !important;
+  border: 1px solid transparent;
+}
+
+/* line 114, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn3-white i {
+  margin-right: 2px;
+}
+
+/* line 117, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn3-white:focus {
+  outline: none;
+}
+
+/* line 120, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn3-white.large-width {
+  width: 220px;
+}
+
+/* line 125, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn3-green-2 {
+  color: #48B6FB !important;
+  display: inline-block;
+  padding: 14px 31px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0;
+  border: 1px solid #48B6FB;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: capitalize;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+/* line 141, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn3-green-2:hover {
+  background: #48B6FB;
+  color: #fff !important;
+  border: 1px solid transparent;
+}
+
+/* line 146, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn3-green-2:focus {
+  outline: none;
+}
+
+/* line 149, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn3-green-2.large-width {
+  width: 220px;
+}
+
+/* line 153, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn2 {
+  background: transparent;
+  color: #fff;
+  display: inline-block;
+  padding: 18px 24px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0;
+  border: 1px solid #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* line 165, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn2:hover {
+  background: #fff;
+  color: #131313 !important;
+}
+
+/* line 169, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.boxed-btn2:focus {
+  outline: none;
+}
+
+/* line 173, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.line-button {
+  color: #919191;
+  font-size: 16px;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
+  padding-right: 5px;
+  padding-bottom: 2px;
+}
+
+/* line 181, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.line-button::before {
+  position: absolute;
+  content: "";
+  background: #919191;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 190, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.line-button:hover {
+  color: #009DFF;
+}
+
+/* line 193, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.line-button:hover::before {
+  background: #009DFF;
+}
+
+/* line 197, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.prising_btn {
+  display: inline-block;
+  font-size: 14px;
+  color: #5DB2FF;
+  border: 1px solid #5DB2FF;
+  text-transform: capitalize;
+  padding: 8px 28px;
+  font-weight: 500;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 206, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
+
+.prising_btn:hover {
+  background: #5DB2FF;
+  color: #fff;
+}
+
+/* line 2, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_section_title.scss */
+
+.section_title h3 {
+  font-size: 46px;
+  line-height: 60px;
+  font-weight: 300;
+  color: #2C2C2C;
+  position: relative;
+  z-index: 0;
+  padding-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+  /* line 2, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_section_title.scss */
+  .section_title h3 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 2, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_section_title.scss */
+  .section_title h3 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 19, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_section_title.scss */
+  .section_title h3 br {
+    display: none;
+  }
+}
+
+/* line 25, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_section_title.scss */
+
+.section_title p {
+  font-size: 16px;
+  color: #727272;
+  line-height: 28px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+@media (max-width: 767px) {
+  /* line 31, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_section_title.scss */
+  .section_title p br {
+    display: none;
+  }
+}
+
+/* line 39, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_section_title.scss */
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  /* line 39, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_section_title.scss */
+  .mb-50 {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 4, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slick-nav.scss */
+  .mobile_menu {
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    z-index: 9;
+  }
+}
+
+/* line 13, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slick-nav.scss */
+
+.slicknav_menu .slicknav_nav {
+  background: #fff;
+  float: right;
+  margin-top: 0;
+  padding: 0;
+  width: 95%;
+  padding: 0;
+  border-radius: 0px;
+  margin-top: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 11px;
+}
+
+/* line 28, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slick-nav.scss */
+
+.slicknav_menu .slicknav_nav a:hover {
+  background: transparent;
+  color: #5DB2FF;
+}
+
+/* line 32, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slick-nav.scss */
+
+.slicknav_menu .slicknav_nav a.active {
+  color: #5DB2FF;
+}
+
+@media (max-width: 767px) {
+  /* line 35, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slick-nav.scss */
+  .slicknav_menu .slicknav_nav a i {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 35, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slick-nav.scss */
+  .slicknav_menu .slicknav_nav a i {
+    display: none;
+  }
+}
+
+/* line 44, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slick-nav.scss */
+
+.slicknav_menu .slicknav_nav .slicknav_btn {
+  background-color: transparent;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: -40px;
+  position: relative;
+  z-index: 99;
+  border: 1px solid #ddd;
+  top: 3px;
+  right: 5px;
+  top: -36px;
+}
+
+/* line 55, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slick-nav.scss */
+
+.slicknav_menu .slicknav_nav .slicknav_btn .slicknav_icon {
+  margin-right: 6px;
+  margin-top: 3px;
+  position: relative;
+  padding-bottom: 3px;
+  top: -11px;
+  right: -5px;
+}
+
+@media (max-width: 767px) {
+  /* line 12, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slick-nav.scss */
+  .slicknav_menu {
+    margin-right: 0px;
+  }
+}
+
+/* line 72, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slick-nav.scss */
+
+.slicknav_nav .slicknav_arrow {
+  float: right;
+  font-size: 22px;
+  position: relative;
+  top: -9px;
+}
+
+/* line 78, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slick-nav.scss */
+
+.slicknav_btn {
+  background-color: transparent;
+  cursor: pointer;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 99;
+  border: none;
+  border-radius: 3px;
+  top: 5px;
+  padding: 5px;
+  right: 0;
+  margin-top: -5px;
+  top: -29px;
+  right: 5px;
+}
+
+/* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area {
+  left: 0;
+  right: 0;
+  width: 100%;
+  top: 0;
+  z-index: 9;
+  position: absolute;
+}
+
+@media (max-width: 767px) {
+  /* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area {
+    padding-top: 0;
+  }
+}
+
+/* line 16, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area {
+  padding: 20px 200px;
+  background: #fff;
+  background: transparent;
+}
+
+@media (max-width: 767px) {
+  /* line 16, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area {
+    padding: 10px 0px;
+    background: #2C2C2C;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 16, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area {
+    padding: 10px 15px;
+    background: #2C2C2C;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 16, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area {
+    padding: 10px 0px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  /* line 16, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area {
+    padding: 10px 0px;
+  }
+}
+
+/* line 36, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area.details_nav_bg {
+  background: #727272;
+  padding-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  /* line 36, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area.details_nav_bg {
+    padding-bottom: 10px;
+  }
+}
+
+/* line 56, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .logo-img {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  /* line 56, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area .logo-img {
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 56, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area .logo-img {
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 56, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area .logo-img {
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 70, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area .logo-img img {
+    width: 70px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 70, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area .logo-img img {
+    width: 70px;
+  }
+}
+
+/* line 82, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .Appointment {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  -ms-justify-content: flex-end;
+  justify-content: flex-end;
+  -ms-flex-pack: flex-end;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 86, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area .Appointment .search_button {
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  /* line 86, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area .Appointment .search_button {
+    margin-right: 15px;
+  }
+}
+
+/* line 95, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .Appointment .search_button a i {
+  color: #E8E8E8;
+}
+
+/* line 102, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .Appointment .socail_links ul li {
+  display: inline-block;
+}
+
+/* line 105, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .Appointment .socail_links ul li a {
+  color: #A8A7A0;
+  margin: 0 10px;
+  font-size: 15px;
+}
+
+/* line 109, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .Appointment .socail_links ul li a:hover {
+  color: #fff;
+}
+
+/* line 116, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .Appointment .book_btn {
+  margin-left: 30px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 116, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area .Appointment .book_btn {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  /* line 116, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area .Appointment .book_btn {
+    margin-left: 0;
+  }
+}
+
+/* line 124, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .Appointment .book_btn a {
+  background: #42B3FA;
+  padding: 12px 26px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  color: #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 124, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area .Appointment .book_btn a {
+    padding: 12px 20px;
+  }
+}
+
+/* line 135, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .Appointment .book_btn a:hover {
+  background: #4BA8FD;
+  color: #fff;
+  border: 1px solid #4BA8FD;
+}
+
+/* line 143, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu {
+  text-align: right;
+  padding: 12px 0;
+}
+
+/* line 147, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li {
+  display: inline-block;
+  position: relative;
+  margin: 0 10px;
+}
+
+/* line 157, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li a {
+  color: #fff;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 400;
+  display: inline-block;
+  padding: 0px 0px 0px 0px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  text-transform: capitalize;
+}
+
+.header-area .main-header-area .main-menu ul li a:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid #fff;
+  width: 20px;
+  margin: auto;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 157, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area .main-menu ul li a {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  /* line 157, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area .main-menu ul li a {
+    font-size: 15px;
+  }
+}
+
+/* line 176, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li a i {
+  font-size: 9px;
+}
+
+@media (max-width: 767px) {
+  /* line 176, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area .main-menu ul li a i {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 176, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area .main-menu ul li a i {
+    display: none !important;
+  }
+}
+
+/* line 197, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li a:hover::before {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+/* line 202, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li a.active::before {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+/* line 211, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li .submenu {
+  position: absolute;
+  right: 0;
+  top: 160%;
+  background: #fff;
+  width: 200px;
+  z-index: 2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
+  opacity: 0;
+  visibility: hidden;
+  text-align: left;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+
+/* line 223, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li .submenu li {
+  display: block;
+}
+
+/* line 225, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li .submenu li a {
+  padding: 10px 15px;
+  position: inherit;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  display: block;
+  color: #000;
+}
+
+.header-area .main-header-area .main-menu ul li .submenu li a:hover {
+  padding: 10px 17px;
+}
+
+/* line 231, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li .submenu li a::before {
+  display: none;
+}
+
+/* line 235, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li .submenu li:hover a {
+  color: #000;
+}
+
+/* line 240, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li:hover>.submenu {
+  opacity: 1;
+  visibility: visible;
+  top: 150%;
+}
+
+/* line 245, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li:hover>a::before {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+/* line 249, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li:first-child a {
+  padding-left: 0;
+}
+
+/* line 255, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area.sticky {
+  position: fixed;
+  width: 100%;
+  top: -70px;
+  left: 0;
+  right: 0;
+  z-index: 990;
+  transform: translateY(70px);
+  transition: transform 500ms ease, background 500ms ease;
+  -webkit-transition: transform 500ms ease, background 500ms ease;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.96);
+  background: #2c91fb;
+}
+
+@media (max-width: 767px) {
+  /* line 255, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area.sticky {
+    padding: 10px 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 255, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .main-header-area.sticky {
+    padding: 10px 0px;
+  }
+}
+
+/* line 285, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area.sticky .main-menu {
+  padding: 0;
+}
+
+/* line 288, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area.sticky .header_bottom_border {
+  border-bottom: none;
+}
+
+/* line 291, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .main-header-area.sticky .header_bottom_border.white_border {
+  border-bottom: none !important;
+}
+
+/* line 297, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .header-top_area {
+  padding: 12px 0;
+  background: rgba(44, 44, 44, 0.5);
+}
+
+@media (max-width: 767px) {
+  /* line 300, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .header-top_area .social_media_links {
+    text-align: center;
+  }
+}
+
+/* line 304, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .header-top_area .social_media_links a {
+  font-size: 15px;
+  color: #fff;
+  margin-right: 12px;
+}
+
+/* line 308, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .header-top_area .social_media_links a:hover {
+  color: #28AE60;
+}
+
+/* line 313, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .header-top_area .short_contact_list {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  /* line 313, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .header-top_area .short_contact_list {
+    text-align: center;
+  }
+}
+
+/* line 319, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .header-top_area .short_contact_list ul li {
+  display: inline-block;
+}
+
+/* line 321, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .header-top_area .short_contact_list ul li a {
+  font-size: 13px;
+  color: #fff;
+  margin-left: 50px;
+}
+
+@media (max-width: 767px) {
+  /* line 321, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header-area .header-top_area .short_contact_list ul li a {
+    margin-left: 0;
+    margin: 0 5px;
+  }
+}
+
+/* line 330, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header-area .header-top_area .short_contact_list ul li a i {
+  color: #28AE60;
+  margin-right: 7px;
+}
+
+/* line 340, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header_bottom_border {
+  border-bottom: 1px solid #4B4E50;
+  padding-bottom: 22px;
+}
+
+/* line 343, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+
+.header_bottom_border.white_border {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+@media (max-width: 767px) {
+  /* line 343, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header_bottom_border.white_border {
+    padding: 0;
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 343, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header_bottom_border.white_border {
+    padding: 0;
+    border-bottom: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 340, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
+  .header_bottom_border {
+    padding: 0;
+    border-bottom: none;
+  }
+}
+
+/* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+
+.slider_bg_1 {
+  background-image: url(../../assets/img/banner/banner.png);
+}
+
+/* line 8, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+
+.slider_area .single_slider {
+  height: 600px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media (max-width: 767px) {
+  /* line 8, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+  .slider_area .single_slider {
+    height: auto;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 8, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+  .slider_area .single_slider {
+    height: 620px;
+  }
+}
+
+/* line 22, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+
+.slider_area .single_slider .phone_thumb {
+  position: relative;
+  top: 110px;
+}
+
+@media (max-width: 767px) {
+  /* line 22, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+  .slider_area .single_slider .phone_thumb {
+    top: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 28, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+  .slider_area .single_slider .phone_thumb img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 28, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+  .slider_area .single_slider .phone_thumb img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 28, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+  .slider_area .single_slider .phone_thumb img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 40, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text {
+    padding-top: 100px;
+  }
+}
+
+/* line 44, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+
+.slider_area .single_slider .slider_text h3 {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-weight: 300;
+  line-height: 74px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+  /* line 52, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text h3 br {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 52, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text h3 br {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 52, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text h3 br {
+    display: none;
+  }
+}
+
+/* line 63, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+
+.slider_area .single_slider .slider_text h3 span {
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  /* line 44, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text h3 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 44, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text h3 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 44, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text h3 {
+    font-size: 45px;
+    letter-spacing: 3px;
+    line-height: 55px;
+  }
+}
+
+/* line 83, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+
+.slider_area .single_slider .slider_text h4 {
+  font-size: 35px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 0px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 83, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 83, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text p {
+    font-size: 16px;
+  }
+}
+
+/* line 96, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+
+.slider_area .single_slider .slider_text .video_service_btn>a {
+  margin-right: 15px;
+}
+
+@media (max-width: 767px) {
+  /* line 96, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text .video_service_btn>a {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+
+.features_area {
+  padding: 77px 0 90px 0;
+}
+
+@media (max-width: 767px) {
+  /* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area {
+    padding: 30px 0 40px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area {
+    padding: 30px 0 40px 0;
+  }
+}
+
+/* line 10, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+
+.features_area .about_image img {
+  width: auto;
+}
+
+/* line 15, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+
+.features_area .about_draw img {
+  width: 100%;
+}
+
+/* line 19, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+
+.features_area .features_main_wrap {
+  padding: 90px 0;
+}
+
+@media (max-width: 767px) {
+  /* line 19, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area .features_main_wrap {
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 25, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area .features_main_wrap .about_image img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 32, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area .features_info2 {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 36, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+
+.features_area .features_info2 h3 {
+  font-size: 46px;
+  line-height: 60px;
+  font-weight: 300;
+  color: #2C2C2C;
+}
+
+@media (max-width: 767px) {
+  /* line 36, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area .features_info2 h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 36, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area .features_info2 h3 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 36, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area .features_info2 h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+/* line 54, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+
+.features_area .features_info2 p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #727272;
+  margin-bottom: 22px;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 62, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area .features_info2 p br {
+    display: none;
+  }
+}
+
+/* line 69, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+
+.features_area .features_info {
+  padding-left: 68px;
+}
+
+@media (max-width: 767px) {
+  /* line 69, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area .features_info {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 69, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area .features_info {
+    padding-left: 30px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 69, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area .features_info {
+    padding-left: 30px;
+    padding-top: 0;
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  /* line 69, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area .features_info {
+    padding-left: 30px;
+    padding-top: 0;
+  }
+}
+
+/* line 93, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+
+.features_area .features_info h3 {
+  font-size: 46px;
+  line-height: 60px;
+  font-weight: 300;
+  color: #2C2C2C;
+}
+
+@media (max-width: 767px) {
+  /* line 93, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area .features_info h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 93, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area .features_info h3 {
+    font-size: 38px;
+    line-height: 50px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 93, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area .features_info h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 110, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area .features_info h3 br {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 110, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area .features_info h3 br {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 110, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area .features_info h3 br {
+    display: none;
+  }
+}
+
+/* line 122, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+
+.features_area .features_info p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #727272;
+  margin-bottom: 22px;
+  margin-top: 28px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 128, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area .features_info p br {
+    display: none;
+  }
+}
+
+/* line 134, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+
+.features_area .features_info ul {
+  margin-bottom: 56px;
+}
+
+@media (max-width: 767px) {
+  /* line 134, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .features_area .features_info ul {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 139, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+
+.features_area .features_info ul li {
+  font-size: 16px;
+  line-height: 28px;
+  color: #727272;
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 5px;
+  font-weight: 400;
+  z-index: 1;
+}
+
+/* line 148, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+
+.features_area .features_info ul li::before {
+  position: absolute;
+  left: 0;
+  background-image: url(../img/ilstrator_img/check.svg);
+  width: 16px;
+  height: 16px;
+  content: '';
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 160, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+
+.features_area .features_info .boxed-btn3 {
+  padding: 13px 46px 14px 46px;
+}
+
+/* line 168, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+
+.productivity_area {
+  background-image: url(../img/banner/product.png);
+  background-size: cover;
+  background-position: center center;
+  padding: 164px 0;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  /* line 168, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .productivity_area {
+    padding: 100px 0;
+  }
+}
+
+/* line 177, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+
+.productivity_area h3 {
+  font-size: 46px;
+  font-weight: 300;
+  color: #FFFFFF;
+  line-height: 60px;
+}
+
+.productivity_area h2 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #FFFFFF;
+  line-height: 60px;
+}
+
+@media (max-width: 767px) {
+  /* line 177, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .productivity_area h3 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .productivity_area h2 {
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 177, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .productivity_area h2 {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 192, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+
+.productivity_area .app_download {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  /* line 192, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .productivity_area .app_download {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 192, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .productivity_area .app_download {
+    text-align: center;
+  }
+}
+
+/* line 200, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+
+.productivity_area .app_download img {
+  margin-left: 9px;
+}
+
+@media (max-width: 767px) {
+  /* line 200, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+  .productivity_area .app_download img {
+    margin: 5px 0;
+  }
+}
+
+/* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_counter.scss */
+
+/* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 6, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .footer_top {
+  padding-top: 117px;
+  padding-bottom: 205px;
+  background: #1F1F1F;
+}
+
+@media (max-width: 767px) {
+  /* line 6, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+  .footer .footer_top {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 6, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+  .footer .footer_top {
+    padding-top: 90px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 18, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 18, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 25, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .footer_top .footer_widget .footer_title {
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+  /* line 25, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget .footer_title {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 35, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .footer_top .footer_widget .footer_logo {
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+  /* line 35, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget .footer_logo {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 45, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .footer_top .footer_widget p {
+  color: #C7C7C7;
+}
+
+/* line 48, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .footer_top .footer_widget p.footer_text {
+  font-size: 16px;
+  color: #B2B2B2;
+  margin-bottom: 23px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/* line 54, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .footer_top .footer_widget p.footer_text a.domain {
+  color: #B2B2B2;
+  font-weight: 400;
+}
+
+/* line 57, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .footer_top .footer_widget p.footer_text a.domain:hover {
+  color: #5DB2FF;
+  border-bottom: 1px solid #5DB2FF;
+}
+
+/* line 63, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .footer_top .footer_widget p.footer_text.doanar a {
+  font-weight: 500;
+  color: #B2B2B2;
+}
+
+/* line 67, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .footer_top .footer_widget p.footer_text.doanar a:hover {
+  color: #5DB2FF;
+  border-bottom: 1px solid #5DB2FF;
+}
+
+/* line 71, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .footer_top .footer_widget p.footer_text.doanar a.first {
+  margin-bottom: 10px;
+}
+
+/* line 79, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .footer_top .footer_widget ul li {
+  color: #C7C7C7;
+  font-size: 13px;
+  line-height: 42px;
+}
+
+/* line 83, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .footer_top .footer_widget ul li a {
+  color: #C7C7C7;
+}
+
+/* line 85, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .footer_top .footer_widget ul li a:hover {
+  color: #5DB2FF;
+}
+
+/* line 91, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .footer_top .footer_widget .newsletter_form {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* line 94, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .footer_top .footer_widget .newsletter_form input {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #000;
+  border: none;
+}
+
+/* line 102, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .footer_top .footer_widget .newsletter_form input::placeholder {
+  font-size: 16px;
+  color: #919191;
+}
+
+/* line 107, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .footer_top .footer_widget .newsletter_form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  background: #5DB2FF;
+  padding: 10px;
+  padding: 0 22px;
+  cursor: pointer;
+}
+
+/* line 121, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .footer_top .footer_widget .newsletter_text {
+  font-size: 16px;
+  color: #BABABA;
+}
+
+/* line 127, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .copy-right_text {
+  padding-bottom: 30px;
+  background: #000000;
+}
+
+/* line 130, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .copy-right_text .footer_border {
+  padding-bottom: 30px;
+}
+
+/* line 133, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .copy-right_text .copy_right {
+  font-size: 13px;
+  color: #C7C7C7;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+@media (max-width: 767px) {
+  /* line 133, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+  .footer .copy-right_text .copy_right {
+    font-size: 13px;
+  }
+}
+
+/* line 141, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .copy-right_text .copy_right a {
+  color: #5DB2FF;
+}
+
+/* line 146, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .socail_links {
+  margin-top: 47px;
+}
+
+@media (max-width: 767px) {
+  /* line 146, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+  .footer .socail_links {
+    margin-top: 30px;
+  }
+}
+
+/* line 152, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .socail_links ul li {
+  display: inline-block;
+}
+
+/* line 155, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .socail_links ul li a {
+  font-size: 18px;
+  color: #C3B2F0;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  background: #565656;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  line-height: 40px !important;
+  margin-right: 7px;
+  color: #FFFFFF;
+  line-height: 41px !important;
+}
+
+/* line 168, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
+
+.footer .socail_links ul li a:hover {
+  color: #fff !important;
+  background: #5DB2FF;
+}
+
+/* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_bradcam.scss */
+
+/* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_service.scss */
+
+.service_area {
+  padding: 168px 0 60px 0;
+}
+
+@media (max-width: 767px) {
+  /* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_service.scss */
+  .service_area {
+    padding: 90px 0 30px 0;
+  }
+}
+
+/* line 6, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_service.scss */
+
+.service_area .section_title {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 767px) {
+  /* line 6, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_service.scss */
+  .service_area .section_title {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 12, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_service.scss */
+
+.service_area .single_service {
+  margin-bottom: 30px;
+}
+
+/* line 14, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_service.scss */
+
+.service_area .single_service .thumb {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
+  background: #0181f5;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #0181f5 0%, #5db2ff 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #0181f5 0%, #5db2ff 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0181f5', endColorstr='#5db2ff', GradientType=1);
+  /* IE6-9 */
+  width: 110px;
+  height: 110px;
+  text-align: center;
+  line-height: 110px;
+  border-radius: 20px;
+  margin: 0 auto 30px auto;
+}
+
+/* line 30, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_service.scss */
+
+.service_area .single_service h3 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #2C2C2C;
+  line-height: 38px;
+}
+
+/* line 37, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_service.scss */
+
+.service_area .col-lg-4:nth-child(2) .single_service .thumb {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fdae5c+0,fd8e5e+100 */
+  background: #fdae5c;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #fdae5c 0%, #fd8e5e 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #fdae5c 0%, #fd8e5e 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #fdae5c 0%, #fd8e5e 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdae5c', endColorstr='#fd8e5e', GradientType=1);
+  /* IE6-9 */
+}
+
+/* line 46, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_service.scss */
+
+.service_area .col-lg-4:nth-child(3) .single_service .thumb {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#37ef8d+0,37ef8d+100 */
+  background: #37ef8d;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #37ef8d 0%, #37ef8d 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #37ef8d 0%, #37ef8d 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #37ef8d 0%, #37ef8d 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37ef8d', endColorstr='#37ef8d', GradientType=1);
+  /* IE6-9 */
+}
+
+/* line 58, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_service.scss */
+
+/* progrres bar */
+
+.progress-table-wrap {
+  overflow-x: scroll;
+}
+
+/* line 357, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
+
+.progress-table {
+  padding: 15px 0px 30px 0px;
+}
+
+/* line 368, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
+
+.progress-table .visit {
+  width: 50%;
+}
+
+/* line 371, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
+
+.progress-table .percentage {
+  width: 50%;
+  padding-right: 50px;
+}
+
+/* line 375, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
+
+.progress-table .table-head {
+  display: flex;
+}
+
+/* line 377, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
+
+.progress-table .table-head .serial, .progress-table .table-head .country, .progress-table .table-head .visit, .progress-table .table-head .percentage {
+  color: #415094;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* line 387, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
+
+.progress-table .table-row {
+  padding: 15px 0;
+  border-top: 1px solid #edf3fd;
+  display: flex;
+}
+
+/* line 391, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
+
+.progress-table .table-row .serial, .progress-table .table-row .country, .progress-table .table-row .visit, .progress-table .table-row .percentage {
+  display: flex;
+  align-items: center;
+}
+
+/* line 399, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
+
+.progress-table .table-row .country img {
+  margin-right: 15px;
+}
+
+/* line 404, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
+
+.progress-table .table-row .percentage .progress {
+  width: 80%;
+  border-radius: 0px;
+  background: transparent;
+}
+
+/* line 408, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
+
+.progress-table .table-row .percentage .progress .progress-bar {
+  height: 5px;
+  line-height: 5px;
+}
+
+/* line 411, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
+
+.progress-table .table-row .percentage .progress .progress-bar.color-1 {
+  background-color: #6382e6;
+}
+
+/* line 414, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
+
+.progress-table .table-row .percentage .progress .progress-bar.color-2 {
+  background-color: #e66686;
+}
+
+/* line 417, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
+
+.progress-table .table-row .percentage .progress .progress-bar.color-3 {
+  background-color: #f09359;
+}
+
+/* line 420, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
+
+.progress-table .table-row .percentage .progress .progress-bar.color-4 {
+  background-color: #73fbaf;
+}
+
+/* line 423, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
+
+.progress-table .table-row .percentage .progress .progress-bar.color-5 {
+  background-color: #73fbaf;
+}
+
+/* line 426, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
+
+.progress-table .table-row .percentage .progress .progress-bar.color-6 {
+  background-color: #6382e6;
+}
+
+/* line 429, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
+
+.progress-table .table-row .percentage .progress .progress-bar.color-7 {
+  background-color: #a367e7;
+}
+
+/* line 432, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
+
+.progress-table .table-row .percentage .progress .progress-bar.color-8 {
+  background-color: #e66686;
+}
+
+/* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_prising.scss */
+
+.prising_area {
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+/* line 4, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_prising.scss */
+
+.prising_area.minus_padding {
+  padding-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  /* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_prising.scss */
+  .prising_area {
+    padding: 50px 0 20px 0;
+  }
+}
+
+/* line 10, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_prising.scss */
+
+.prising_area .section_title {
+  padding-bottom: 90px;
+}
+
+@media (max-width: 767px) {
+  /* line 10, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_prising.scss */
+  .prising_area .section_title {
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 10, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_prising.scss */
+  .prising_area .section_title {
+    padding-bottom: 50px;
+  }
+}
+
+/* line 25, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_prising.scss */
+
+.prising_area .single_prising {
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  padding-bottom: 40px;
+}
+
+/* line 29, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_prising.scss */
+
+.prising_area .single_prising .prising_header {
+  background: #E9F4FE;
+  padding: 28px 35px;
+}
+
+/* line 32, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_prising.scss */
+
+.prising_area .single_prising .prising_header h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+/* line 37, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_prising.scss */
+
+.prising_area .single_prising .prising_header span {
+  font-size: 20px;
+  font-weight: 500;
+  color: #0181F5;
+  line-height: 20px;
+}
+
+/* line 44, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_prising.scss */
+
+.prising_area .single_prising .prising_header.green_header {
+  background: #E8FCF1;
+}
+
+/* line 46, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_prising.scss */
+
+.prising_area .single_prising .prising_header.green_header span {
+  color: #00D363;
+}
+
+/* line 50, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_prising.scss */
+
+.prising_area .single_prising .prising_header.pink_header {
+  background: #FEF4EE;
+}
+
+/* line 52, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_prising.scss */
+
+.prising_area .single_prising .prising_header.pink_header span {
+  color: #FDAE5C;
+}
+
+/* line 57, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_prising.scss */
+
+.prising_area .single_prising ul {
+  margin-top: 30px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+/* line 60, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_prising.scss */
+
+.prising_area .single_prising ul li {
+  font-size: 14px;
+  line-height: 21px;
+  color: #727272;
+  margin-bottom: 30px;
+}
+
+/* line 65, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_prising.scss */
+
+.prising_area .single_prising ul li:last-child {
+  margin-bottom: 0;
+}
+
+.login_area {
+  background-color: #2c91fb;
+}
+
+.login {
+  background-color: whitesmoke;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.login h1 {
+  text-align: center;
+}
+
+td a, .login_area a {
+  color: royalblue;
+}
+
+td a:hover, .login_area a:hover {
+  color: #2c91fb;
+}
+
+.komentar {
+  background: whitesmoke;
+  border-radius: 10px;
+}
+
+.komentar h5 {
+  font-size: 16px;
+}
+
+.komentar p {
+  font-size: 13px;
+}
